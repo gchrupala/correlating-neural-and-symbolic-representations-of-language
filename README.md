@@ -20,7 +20,12 @@ pip install -r requirements.txt
 python setup.py develop
 ```
 
-Download InferSent data and unpack them:
+Download InferSent moodels and data and unpack them:
+
+```
+wget http://grzegorz.chrupala.me/data/infersent.tgz
+tar zxvf infersent.tgz
+```
 
 
 
