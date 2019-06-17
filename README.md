@@ -32,7 +32,7 @@ tar zxvf infersent.tgz
 ## Usage
 
 - Train the LSTM models in [experiments](experiments) by running the `run.py` files.
-- Run the `main` function in module [rsa.report](rsa/report.py) to generate the results from the paper:
+- Run the `main` function in module [rsa.report](rsa/report.py) to generate the [results](report/results.tex):
 ```
 python -c 'import rsa.report as R; R.main(open("report/results.tex", "w"))'
 ```
