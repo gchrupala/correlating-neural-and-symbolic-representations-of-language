@@ -1,0 +1,77 @@
+Figure 1 \label{fig:sim_distribution}
+
+\includegraphics[scale=0.5]{sim_distribution.png}
+
+Figure 5 \label{fig:size_dist}
+
+\includegraphics[scale=0.35]{size_distribution.png}
+
+Figure 6 \label{fig:scatter_rsa_prefix}
+
+\includegraphics[scale=0.3]{scatter_rsa.png}
+
+Table 2 \label{tab:results_main}
+
+Diagnostic
+
+\begin{tabular}{llrrr}
+\toprule
+{} &              Encoder &      Loss &     Value &     Depth \\
+\midrule
+0 &               Random &       NaN &  0.013359 &  0.800532 \\
+1 &  Semantic evaluation &  0.070403 &  0.970160 &  0.695696 \\
+2 &           Tree Depth &  0.000002 & -0.029918 &  0.999838 \\
+3 &      Infix-to-Prefix &  0.004576 &  0.017257 &  0.965776 \\
+\bottomrule
+\end{tabular}
+
+RSA
+
+\begin{tabular}{llrrrr}
+\toprule
+{} &              Encoder &     Value &     Depth &   TK(1.0) &   TK(0.5) \\
+\midrule
+0 &               Random &  0.010150 &  0.228022 & -0.241466 & -0.325626 \\
+1 &  Semantic evaluation &  0.615824 &  0.049651 &  0.017533 &  0.007782 \\
+2 &           Tree Depth &  0.009049 &  0.721787 &  0.103039 & -0.058480 \\
+3 &      Infix-to-Prefix & -0.002600 &  0.644275 &  0.354020 &  0.531952 \\
+\bottomrule
+\end{tabular}
+
+RSAregress
+
+\begin{tabular}{llrrrr}
+\toprule
+{} &              Encoder &     Value &     Depth &   TK(1.0) &   TK(0.5) \\
+\midrule
+0 &               Random & -0.014842 &  0.571452 &  0.406290 &  0.625373 \\
+1 &  Semantic evaluation &  0.966072 &  0.552696 &  0.375257 &  0.614787 \\
+2 &           Tree Depth & -0.028850 &  0.971915 &  0.489366 &  0.871465 \\
+3 &      Infix-to-Prefix &  0.023125 &  0.879830 &  0.582551 &  0.963733 \\
+\bottomrule
+\end{tabular}
+
+Table 3 \label{tab:rsa-natural}
+
+\begin{tabular}{llrrr}
+
+BoW        &          &  0.5  &  0.18  &  0.50  \\
+Infersent  &  $-$  &  0.5  &  0.24  &  0.52  \\
+BERT last  &  $-$  &  0.5  &  0.15  &  0.50  \\
+BERT best  &  $-$  &  0.5  &  0.15  &  0.52  \\
+Infersent  &  $+$  &  0.5  &  0.30  &  0.71  \\
+BERT last  &  $+$  &  0.5  &  0.16  &  0.59  \\
+BERT best  &  $+$  &  0.5  &  0.32  &  0.70  \\
+BoW        &          &  1.0  &  -0.01  &  0.40  \\
+Infersent  &  $-$  &  1.0  &  0.01  &  0.49  \\
+BERT last  &  $-$  &  1.0  &  -0.04  &  0.51  \\
+BERT best  &  $-$  &  1.0  &  -0.04  &  0.52  \\
+Infersent  &  $+$  &  1.0  &  0.10  &  0.59  \\
+BERT last  &  $+$  &  1.0  &  0.03  &  0.53  \\
+BERT best  &  $+$  &  1.0  &  0.18  &  0.60  \\
+\end{tabular}
+
+Figure 7 \label{fig:bert-layers}
+
+\includegraphics[scale=0.45]{BERT24_layers.png}
+
