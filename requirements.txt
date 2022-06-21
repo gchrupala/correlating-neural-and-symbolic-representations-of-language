@@ -23,7 +23,7 @@ more-itertools==7.0.0
 mypy==0.670
 mypy-extensions==0.4.1
 nltk==3.4
-numpy==1.16.2
+numpy==1.22.0
 pandas==0.24.1
 parso==0.4.0
 pexpect==4.7.0
